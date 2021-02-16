@@ -16,7 +16,7 @@
 
 - Fire
 
-- Barrel Cactus 
+- Barrel Cactus
 
 ## Taurus ( April 20 - May 20)
 
@@ -160,4 +160,4 @@
 
 - Water
 
-- Aloe 
+- Aloe
