@@ -19,6 +19,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'playfairdisplay';
+  src: url('/fonts/playfairdisplay/PlayfairDisplay-Bold.woff2') format('woff2'),;
+  font-weight: bold;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   border: 0;
@@ -30,13 +37,8 @@ body {
   align-items: center;
 }
 
-
-.icon {
-  width: 15vw;
-}
-
 h1 {
-  font-family: 'montserrat';
+  font-family: 'playfairdisplay';
   text-align: center;
   color: #646F79;
   font-size: 2rem;
@@ -48,4 +50,77 @@ p {
   color: #B59C95;
   font-weight: bold;
   font-size: 1rem;
+}
+
+.button {
+  width: 16vw;
+  height: 200px;
+  border: none;
+  background-color: transparent;
+  outline: none;
+  cursor: pointer;
+}
+
+.button:hover {
+  opacity: .7;
+}
+
+#ari {
+  background-image: url('/images/ari.jpg');
+  background-size: 200px;
+}
+
+#tau {
+  background-image: url('/images/tau.jpg');
+  background-size: 200px;
+}
+
+#gem {
+  background-image: url('/images/gem.jpg');
+  background-size: 200px;
+}
+
+#can {
+  background-image: url('/images/can.jpg');
+  background-size: 200px;
+}
+
+#leo {
+  background-image: url('/images/leo.jpg');
+  background-size: 200px;
+}
+
+#vir {
+  background-image: url('/images/vir.jpg');
+  background-size: 200px;
+}
+
+#lib {
+  background-image: url('/images/lib.jpg');
+  background-size: 200px;
+}
+
+#sco {
+  background-image: url('/images/sco.jpg');
+  background-size: 200px;
+}
+
+#sag {
+  background-image: url('/images/sag.jpg');
+  background-size: 200px;
+}
+
+#cap {
+  background-image: url('/images/cap.jpg');
+  background-size: 200px;
+}
+
+#aqu {
+  background-image: url('/images/aqu.jpg');
+  background-size: 200px;
+}
+
+#pis {
+  background-image: url('/images/pis.jpg');
+  background-size: 200px;
 }
