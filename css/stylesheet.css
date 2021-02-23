@@ -33,15 +33,16 @@ body {
 }
 
 .welcome {
-  padding: 10vh 4vw;
+  padding: 15.8vh;
   align-items: center;
+  border-color: #B59C95;
 }
 
 h1 {
   font-family: 'playfairdisplay';
   text-align: center;
   color: #646F79;
-  font-size: 2rem;
+  font-size: 3rem;
 }
 
 p {
@@ -49,11 +50,11 @@ p {
   text-align: center;
   color: #B59C95;
   font-weight: bold;
-  font-size: 1rem;
+  font-size: 1.2rem;
 }
 
 .button {
-  width: 16vw;
+  width: 200px;
   height: 200px;
   border: none;
   background-color: transparent;
@@ -62,7 +63,13 @@ p {
 }
 
 .button:hover {
-  opacity: .7;
+  opacity: .8;
+}
+
+div.buttonrow {
+  display: flex;
+  justify-content: center;
+
 }
 
 #ari {
