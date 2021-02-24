@@ -43,6 +43,20 @@ input[type="date"] {
   background: transparent;
   color: #646F79;
   font-family: 'montserrat', sans-serif;
+  cursor: text;
+}
+
+#submit {
+  font-family: 'montserrat', sans-serif;
+  border-radius: 5px;
+  background: transparent;
+  cursor: pointer;
+  color: #646F79;
+  padding: 3px 10px;
+}
+#submit:hover {
+  opacity: .6;
+  color:  #B59C95
 }
 
 

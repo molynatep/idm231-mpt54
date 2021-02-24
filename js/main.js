@@ -23,3 +23,16 @@ if ((whichMonth == 12 && whichDayOfMonth >= 22) || (whichMonth == 1 && whichDayO
  } else if ((whichMonth == 1 && whichDayOfMonth >= 20) || (whichMonth == 2 && whichDayOfMonth <= 18)) {
    AstroSign = "aqu";
  }
+
+ const capObj = document.getElementById('cap');
+ const sagObj = document.getElementById('sag');
+ const scoObj = document.getElementById('sco');
+ const libObj = document.getElementById('lib');
+ const virObj = document.getElementById('vir');
+ const leoObj = document.getElementById('leo');
+ const canObj = document.getElementById('can');
+ const gemObj = document.getElementById('gem');
+ const tauObj = document.getElementById('tau');
+ const ariObj = document.getElementById('ari');
+ const pisObj = document.getElementById('pis');
+ const aquObj = document.getElementById('aqu');
