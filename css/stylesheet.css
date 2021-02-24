@@ -32,17 +32,26 @@ body {
   background-color: #F5F2ED;
 }
 
+
 .welcome {
   padding: 15.8vh;
   align-items: center;
   border-color: #B59C95;
 }
 
+input[type="date"] {
+  background: transparent;
+  color: #646F79;
+  font-family: 'montserrat', sans-serif;
+}
+
+
 h1 {
   font-family: 'playfairdisplay';
   text-align: center;
   color: #646F79;
   font-size: 3rem;
+  margin-bottom: 1.3rem;
 }
 
 p {
@@ -51,6 +60,7 @@ p {
   color: #B59C95;
   font-weight: bold;
   font-size: 1.2rem;
+  margin: 10px;
 }
 
 .button {
