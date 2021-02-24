@@ -12,6 +12,17 @@
  const pisObj = document.getElementById('pis');
  const aquObj = document.getElementById('aqu');
 
+ const displayObj = document.getElementById('display');
+
+ capObj.addEventListener('click', function(evt) {
+    const idName = evt.target.id;
+    userPicked(idName);
+ });
+
+ function userPicked(whichButton) {
+      console.log('userPicked called: ' +whichButton);
+ }
+
  const userSubmitObj = document.getElementById('submit');
 
  userSubmitObj.addEventListener('click', function() {

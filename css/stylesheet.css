@@ -44,6 +44,8 @@ input[type="date"] {
   color: #646F79;
   font-family: 'montserrat', sans-serif;
   cursor: text;
+  border-radius: 3px;
+  padding: 3px 5px;
 }
 
 #submit {
