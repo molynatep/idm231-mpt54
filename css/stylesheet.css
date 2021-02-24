@@ -34,7 +34,7 @@ body {
 
 
 .welcome {
-  padding: 15.8vh;
+  padding: 14vh;
   align-items: center;
   border-color: #B59C95;
 }
@@ -53,6 +53,7 @@ input[type="date"] {
   cursor: pointer;
   color: #646F79;
   padding: 3px 10px;
+  margin-bottom: 0;
 }
 #submit:hover {
   opacity: .6;
