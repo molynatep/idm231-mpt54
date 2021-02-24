@@ -19,6 +19,56 @@
     userPicked(idName);
  });
 
+ sagObj.addEventListener('click', function(evt) {
+   const idName = evt.target.id;
+   userPicked(idName);
+});
+
+scoObj.addEventListener('click', function(evt) {
+   const idName = evt.target.id;
+   userPicked(idName);
+});
+
+libObj.addEventListener('click', function(evt) {
+   const idName = evt.target.id;
+   userPicked(idName);
+});
+
+virObj.addEventListener('click', function(evt) {
+   const idName = evt.target.id;
+   userPicked(idName);
+});
+
+leoObj.addEventListener('click', function(evt) {
+   const idName = evt.target.id;
+   userPicked(idName);
+});
+
+canObj.addEventListener('click', function(evt) {
+   const idName = evt.target.id;
+   userPicked(idName);
+});
+
+tauObj.addEventListener('click', function(evt) {
+   const idName = evt.target.id;
+   userPicked(idName);
+});
+
+ariObj.addEventListener('click', function(evt) {
+   const idName = evt.target.id;
+   userPicked(idName);
+});
+
+pisObj.addEventListener('click', function(evt) {
+   const idName = evt.target.id;
+   userPicked(idName);
+});
+
+aquObj.addEventListener('click', function(evt) {
+   const idName = evt.target.id;
+   userPicked(idName);
+});
+
  function userPicked(whichButton) {
       console.log('userPicked called: ' +whichButton);
  }

@@ -32,7 +32,6 @@ body {
   background-color: #F5F2ED;
 }
 
-
 .welcome {
   padding: 14vh;
   align-items: center;
@@ -62,7 +61,6 @@ input[type="date"] {
   color:  #B59C95
 }
 
-
 h1 {
   font-family: 'playfairdisplay';
   text-align: center;
@@ -88,6 +86,7 @@ p {
   outline: none;
   cursor: pointer;
 }
+
 
 .button:hover {
   opacity: .8;
