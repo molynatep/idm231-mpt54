@@ -26,6 +26,13 @@
   font-style: normal;
 }
 
+@font-face {
+  font-family: 'montserrat';
+  src: url('/fonts/montserrat/Montserrat-Black.woff2') format('woff2'),;
+  font-weight: bolder;
+  font-style: normal;
+}
+
 body {
   margin: 0;
   border: 0;
@@ -36,10 +43,14 @@ body {
   padding: 14vh;
   align-items: center;
   border-color: #B59C95;
+  background-image: url("/images/greenhouse2.jpg");
+  background-size: 1200px;
+  background-repeat: no-repeat;
+  background-position: center;
 }
 
 input[type="date"] {
-  background: transparent;
+  background: #F5F2ED;
   color: #646F79;
   font-family: 'montserrat', sans-serif;
   cursor: text;
@@ -50,32 +61,35 @@ input[type="date"] {
 #submit {
   font-family: 'montserrat', sans-serif;
   border-radius: 5px;
-  background: transparent;
+  background: #F5F2ED;
   cursor: pointer;
-  color: #646F79;
+  color: #3b5971;
   padding: 3px 10px;
   margin-bottom: 0;
 }
 #submit:hover {
-  opacity: .6;
-  color:  #B59C95
+  opacity: .95;
+  color:  #ccb7b1
 }
 
 h1 {
-  font-family: 'playfairdisplay';
+  font-family: 'montserrat';
+  font-weight: bold;
   text-align: center;
-  color: #646F79;
-  font-size: 3rem;
-  margin-bottom: 1.3rem;
+  color: #F5F2ED;
+  font-size: 2.3rem;
+  margin-bottom: 0rem;
+  filter: drop-shadow(-2px 2px 1px #273741);
 }
 
 p {
   font-family: 'montserrat';
   text-align: center;
-  color: #B59C95;
+  color: #F5F2ED;
   font-weight: bold;
-  font-size: 1.2rem;
+  font-size: 1.3rem;
   margin: 10px;
+  filter: drop-shadow(-2px 2px 1px #273741);
 }
 
 .button {
