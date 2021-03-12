@@ -53,13 +53,13 @@ input[type="date"] {
   background: transparent;
   color: #646F79;
   font-family: 'montserrat', sans-serif;
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   cursor: text;
   border-radius: 3px;
   padding: 3px 5px;
 }
 
-#submit {
+.btn{
   font-family: 'montserrat', sans-serif;
   border-radius: 5px;
   background: transparent;
@@ -67,11 +67,16 @@ input[type="date"] {
   font-size: 1rem;
   color: #3b5971;
   padding: 3px 10px;
-  margin-bottom: 0;
+  margin: 0 .7rem;
 }
-#submit:hover {
-  opacity: .8;
+.btn:hover {
+  opacity: .9;
   color:  #B59C95
+}
+.wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 h1 {
@@ -102,7 +107,7 @@ p {
 
 
 .button:hover {
-  opacity: .9;
+  opacity: .8;
 }
 
 div.buttonrow {

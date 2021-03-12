@@ -7,6 +7,7 @@
   <title>What Houseplant are You?</title>
   <link rel="normalize" href="css/normalize.css">
   <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/modal.css">
 </head>
 <body>
   <main>
@@ -21,10 +22,11 @@
   <div class="welcome">
     <h1>What Houseplant are You?</h1>
     <p>ENTER YOUR BIRTHDAY:</p>
-    <div>
       <p><input id="bday" type="date"></p>
-      <p><button id="submit">Submit</button></p>
-    </div>
+        <div class="wrapper">
+          <button id="help" class="btn">?</button>
+          <button id="submit" class= "btn">Submit</button>
+        </div>
   </div>
   <div class="buttonrow">
     <button class="button" id="lib"></button>
@@ -34,6 +36,23 @@
     <button class="button" id="aqu"></button>
     <button class="button" id="pis"></button>
   </div>
+
+    <!-- popup div/modal -->
+    <div id="modal" class="modal" hidden>
+      <div class="modal-body">
+        <div class="modal-content">
+          <div>
+            <img id="zDisplayImg" src="images/ari_large.jpg" alt="">
+          </div>
+          <p><span id="zTitle">Title</span>, <span id="zDateRange">Date Range</span></p>
+          <div id="zMoreInfo">
+            <p>Object description goes here</p>
+          </div>
+          <button id="btn-modal-close" class="toggle-modal">Close</button>
+        </div>
+      </div>
+      <div class="blanket"></div>
+    </div>
   </main>
   <script src="js/main.js"></script>
 </body>

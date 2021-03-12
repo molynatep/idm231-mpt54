@@ -15,56 +15,73 @@
  const displayObj = document.getElementById('display');
 
  capObj.addEventListener('click', function(evt) {
+    console.log('cap button clicked: ' + evt.target.id);
     const idName = evt.target.id;
     userPicked(idName);
  });
 
  sagObj.addEventListener('click', function(evt) {
+   console.log('sag button clicked: ' + evt.target.id);
    const idName = evt.target.id;
    userPicked(idName);
 });
 
 scoObj.addEventListener('click', function(evt) {
+   console.log('sco button clicked: ' + evt.target.id);
    const idName = evt.target.id;
    userPicked(idName);
 });
 
 libObj.addEventListener('click', function(evt) {
+   console.log('lib button clicked: ' + evt.target.id);
    const idName = evt.target.id;
    userPicked(idName);
 });
 
 virObj.addEventListener('click', function(evt) {
+   console.log('vir button clicked: ' + evt.target.id);
    const idName = evt.target.id;
    userPicked(idName);
 });
 
 leoObj.addEventListener('click', function(evt) {
+   console.log('leo button clicked: ' + evt.target.id);
    const idName = evt.target.id;
    userPicked(idName);
 });
 
 canObj.addEventListener('click', function(evt) {
+   console.log('can button clicked: ' + evt.target.id);
    const idName = evt.target.id;
    userPicked(idName);
 });
 
+gemObj.addEventListener('click', function(evt) {
+  console.log('gem button clicked: ' + evt.target.id);
+  const idName = evt.target.id;
+  userPicked(idName);
+});
+
 tauObj.addEventListener('click', function(evt) {
+   console.log('tau button clicked: ' + evt.target.id);
    const idName = evt.target.id;
    userPicked(idName);
 });
 
 ariObj.addEventListener('click', function(evt) {
+   console.log('ari button clicked: ' + evt.target.id);
    const idName = evt.target.id;
    userPicked(idName);
 });
 
 pisObj.addEventListener('click', function(evt) {
+   console.log('pis button clicked: ' + evt.target.id);
    const idName = evt.target.id;
    userPicked(idName);
 });
 
 aquObj.addEventListener('click', function(evt) {
+   console.log('aqu button clicked: ' + evt.target.id);
    const idName = evt.target.id;
    userPicked(idName);
 });
@@ -72,6 +89,28 @@ aquObj.addEventListener('click', function(evt) {
  function userPicked(whichButton) {
       console.log('userPicked called: ' +whichButton);
  }
+
+
+ function userPicked(whichOne) {
+  console.log('userPicked called: ' + whichOne);
+  switch (whichOne) {
+    case 'pis':
+      // displayObj.src = 'img/ful_pisces.png';
+      zDisplayImgObj.src = 'images/';
+      // Title
+      zTitleObj.innerHTML = "PISCES";
+      // display date range
+      zDateRangeObj.innerHTML = "##-Month to ##-Month";
+      // display description
+      zMoreInfoObj.innerHTML = "<p>Pisces are cool, they swim in water.</p>";
+
+      modal.hidden = !modal.hidden;
+      break;
+  }
+}
+
+
+ //calendar//
 
  const userSubmitObj = document.getElementById('submit');
 
@@ -120,3 +159,18 @@ aquObj.addEventListener('click', function(evt) {
 
 
  }, false);
+
+
+ //Modal//
+
+const modal = document.getElementById('modal');
+const closeModalObj = document.getElementById('btn-modal-close');
+closeModalObj.addEventListener('click', function() {
+  console.log('Close this modal!');
+  modal.hidden = !modal.hidden;
+});
+
+const zDisplayImgObj = document.getElementById('zDisplayImg');
+const zTitleObj = document.getElementById('zTitle');
+const zDateRangeObj = document.getElementById('zDateRange');
+const zMoreInfoObj = document.getElementById('zMoreInfo');

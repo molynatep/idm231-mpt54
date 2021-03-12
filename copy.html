@@ -7,33 +7,29 @@
   <title>What Houseplant are You?</title>
   <link rel="normalize" href="css/normalize.css">
   <link rel="stylesheet" href="css/stylesheet.css">
+  <link rel="stylesheet" href="css/modal.css">
 </head>
 <body>
   <main>
-  <div class="buttonrow">
-    <button class="button" id="ari"></button>
-    <button class="button" id="tau"></button>
-    <button class="button" id="gem"></button>
-    <button class="button" id="can"></button>
-    <button class="button" id="leo"></button>
-    <button class="button" id="vir"></button>
-  </div>
-  <div class="welcome">
-    <h1>WHAT HOUSEPLANT ARE YOU?</h1>
-    <p>ENTER YOUR BIRTHDAY:</p>
-    <div>
-      <p><input id="bday" type="date"></p>
-      <p><button id="submit">Submit</button></p>
+    <div id="modal" class="modal">
+      <div class="modal-body">
+        <button id="btn-modal-close" class="toggle-modal btn">x</button>
+        <div class="modal-content">
+          <div class="pic">
+            <img id="zDisplayImg" src="images/ari_large.jpg" alt="">
+          </div>
+          <div class="description">
+          <h1 id="zTitle">CACTUS</h1>
+          <p id="zDateRange">January 01 - February 01</p>
+          <div>
+            <p id="zMoreInfo">got some spikes. ouch.</p>
+          </div>
+          </div>
+        </div>
+      </div>
+      <div class="blanket"></div>
     </div>
-  </div>
-  <div class="buttonrow">
-    <button class="button" id="lib"></button>
-    <button class="button" id="sco"></button>
-    <button class="button" id="sag"></button>
-    <button class="button" id="cap"></button>
-    <button class="button" id="aqu"></button>
-    <button class="button" id="pis"></button>
-  </div>
+  </main>
   </main>
   <script src="js/main.js"></script>
 </body>
