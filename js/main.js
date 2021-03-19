@@ -120,7 +120,7 @@ helpObj.addEventListener('click', function(evt) {
     case 'sco':
       img.src = 'images/sco_large.jpg';
       title.innerHTML = "SNAKE PLANT";
-      date.innerHTML = "October 23rd - November 21st";
+      date.innerHTML = "October 24th - November 21st";
       info.innerHTML = "You're a snake plant! Also known as mother-in-law's tongue. They're independent and prefer to be left on their own. As low-light plants needing minimal watering, they don't need much attention.";
       stopAllAudio();
       snakeObj.play();
@@ -130,7 +130,7 @@ helpObj.addEventListener('click', function(evt) {
     case 'lib':
       img.src = 'images/lib_large.jpg';
       title.innerHTML = "PEACE LILY";
-      date.innerHTML = "September 23rd - October 22nd";
+      date.innerHTML = "September 23rd - October 23rd";
       info.innerHTML = "You're a peace lily! You're rational and balanced and understand the complex nature of human relationships. You put others before yourself and you're great at compromising. Peace lilies are well known for their air purifying qualities and bloom beautiful flowers.";
       stopAllAudio();
       lilyObj.play();
@@ -160,7 +160,7 @@ helpObj.addEventListener('click', function(evt) {
     case 'can':
       img.src = 'images/can_large.jpg';
       title.innerHTML = "PRAYER PLANT";
-      date.innerHTML = "June 21st - July 22nd";
+      date.innerHTML = "June 22nd - July 22nd";
       info.innerHTML = "You're a prayer plant! You're intuitive, compassionate, and protective. Prayer plants need extra care as they can be quite sensitive to changes. Throughout the day, their leaves move up and down. ";
       stopAllAudio();
       prayerObj.play();
@@ -170,7 +170,7 @@ helpObj.addEventListener('click', function(evt) {
     case 'gem':
       img.src = 'images/gem_large.jpg';
       title.innerHTML = "MARBLE QUEEN POTHOS";
-      date.innerHTML = "May 21st - June 20th";
+      date.innerHTML = "May 21st - June 21st";
       info.innerHTML = "You're a marble queen pothos! You're versatile, expressive and kind. You're curious just like pothos which can climb in all directions. The marble queen has beautiful speckled white foliage and is very easy to care for.";
       stopAllAudio();
       pothosObj.play();
@@ -200,7 +200,7 @@ helpObj.addEventListener('click', function(evt) {
     case 'pis':
       img.src = 'images/pis_large.jpg';
       title.innerHTML = "ALOE VERA";
-      date.innerHTML = "February 19th - March 21st";
+      date.innerHTML = "February 19th - March 20th";
       info.innerHTML = "You're an aloe! You are an empathetic and nurturing person. A natural-born healer! This succulent is well known for its healing properties. You can use the gel inside on burns.  ";
       stopAllAudio();
       aloeObj.play();
