@@ -170,7 +170,7 @@ helpObj.addEventListener('click', function(evt) {
       break;
 
     case 'ari':
-      img.src = 'images/aqu_large.jpg';
+      img.src = 'images/ari_large.jpg';
       title.innerHTML = "BARREL CACTUS";
       date.innerHTML = "March 21st - April 19th";
       info.innerHTML = "You're a barrel cactus! You're passionate, bold and ambitious. These prickly, sun-loving plants are perfect for your fiery nature. Despite the prickly exterior, they can flower with enough sunlight. They're easy to care for and need minimal watering.";

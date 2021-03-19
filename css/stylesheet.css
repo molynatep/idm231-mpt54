@@ -18,6 +18,12 @@
   font-weight: bold;
   font-style: normal;
 }
+@font-face {
+  font-family: 'playfairdisplay';
+  src: url('/fonts/playfairdisplay/PlayfairDisplay-Regular.woff2') format('woff2');
+  font-weight: normal;
+  font-style: normal;
+}
 
 @font-face {
   font-family: 'playfairdisplay';
@@ -41,7 +47,7 @@ body {
   padding: 14vh;
   align-items: center;
   border-color: #B59C95;
-  background-image: url("/images/bg.jpg");
+  background-image: url("../images/bg.jpg");
   background-size: 1200px;
   background-repeat: no-repeat;
   background-position: center;
@@ -115,61 +121,61 @@ div.buttonrow {
 }
 
 #ari {
-  background-image: url('/images/ari.jpg');
+  background-image: url('../images/ari.jpg');
   background-size: 200px;
 }
 
 #tau {
-  background-image: url('/images/tau.jpg');
+  background-image: url('../images/tau.jpg');
   background-size: 200px;
 }
 
 #gem {
-  background-image: url('/images/gem.jpg');
+  background-image: url('../images/gem.jpg');
   background-size: 200px;
 }
 
 #can {
-  background-image: url('/images/can.jpg');
+  background-image: url('../images/can.jpg');
   background-size: 200px;
 }
 
 #leo {
-  background-image: url('/images/leo.jpg');
+  background-image: url('../images/leo.jpg');
   background-size: 200px;
 }
 
 #vir {
-  background-image: url('/images/vir.jpg');
+  background-image: url('../images/vir.jpg');
   background-size: 200px;
 }
 
 #lib {
-  background-image: url('/images/lib.jpg');
+  background-image: url('../images/lib.jpg');
   background-size: 200px;
 }
 
 #sco {
-  background-image: url('/images/sco.jpg');
+  background-image: url('../images/sco.jpg');
   background-size: 200px;
 }
 
 #sag {
-  background-image: url('/images/sag.jpg');
+  background-image: url('../images/sag.jpg');
   background-size: 200px;
 }
 
 #cap {
-  background-image: url('/images/cap.jpg');
+  background-image: url('../images/cap.jpg');
   background-size: 200px;
 }
 
 #aqu {
-  background-image: url('/images/aqu.jpg');
+  background-image: url('../images/aqu.jpg');
   background-size: 200px;
 }
 
 #pis {
-  background-image: url('/images/pis.jpg');
+  background-image: url('../images/pis.jpg');
   background-size: 200px;
 }
