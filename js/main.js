@@ -1,4 +1,3 @@
-
  const capObj = document.getElementById('cap');
  const sagObj = document.getElementById('sag');
  const scoObj = document.getElementById('sco');
@@ -11,8 +10,7 @@
  const ariObj = document.getElementById('ari');
  const pisObj = document.getElementById('pis');
  const aquObj = document.getElementById('aqu');
-
- const displayObj = document.getElementById('display');
+ const helpObj = document.getElementById('help');
 
  capObj.addEventListener('click', function(evt) {
     console.log('cap button clicked: ' + evt.target.id);
@@ -85,6 +83,11 @@ aquObj.addEventListener('click', function(evt) {
    const idName = evt.target.id;
    userPicked(idName);
 });
+helpObj.addEventListener('click', function(evt) {
+  console.log('help button clicked: ' + evt.target.id);
+  const idName = evt.target.id;
+  userPicked(idName);
+});
 
  function userPicked(whichButton) {
       console.log('userPicked called: ' +whichButton);
@@ -94,21 +97,108 @@ aquObj.addEventListener('click', function(evt) {
  function userPicked(whichOne) {
   console.log('userPicked called: ' + whichOne);
   switch (whichOne) {
+    case 'cap':
+      img.src = 'images/cap_large.jpg';
+      title.innerHTML = "BONSAI";
+      date.innerHTML = "December 22nd - January 19th";
+      info.innerHTML = "You're a bonsai! You're the epitome of discipline and responsibility. You thrive in rules and tradition. Growing Bonsai requires a lot of discipline and control just like you.";
+      modal.hidden = !modal.hidden;
+      break;
+
+    case 'sag':
+      img.src = 'images/sag_large.jpg';
+      title.innerHTML = "AIR PLANT";
+      date.innerHTML = "November 22nd - December 21st";
+      info.innerHTML = "You're an air plant! You tend to be adventurous, always ready to explore. You're also independent and go after you want. As an adaptable traveler, you're just like an air plant, free to grow anywhere.";
+      modal.hidden = !modal.hidden;
+      break;
+
+    case 'sco':
+      img.src = 'images/sco_large.jpg';
+      title.innerHTML = "SNAKE PLANT";
+      date.innerHTML = "October 23rd - November 21st";
+      info.innerHTML = "You're a snake plant! Also known as mother-in-law's tongue. They're independent and prefer to be left on their own. As low-light plants needing minimal watering, they don't need much attention.";
+      modal.hidden = !modal.hidden;
+      break;
+
+    case 'lib':
+      img.src = 'images/lib_large.jpg';
+      title.innerHTML = "PEACE LILY";
+      date.innerHTML = "September 23rd - October 22nd";
+      info.innerHTML = "You're a peace lily! You're rational and balanced and understand the complex nature of human relationships. You put others before yourself and you're great at compromising. Peace lilies are well known for their air purifying qualities and bloom beautiful flowers.";
+      modal.hidden = !modal.hidden;
+      break;
+
+    case 'vir':
+      img.src = 'images/vir_large.jpg';
+      title.innerHTML = "STROMANTHE TRIOSTAR";
+      date.innerHTML = "August 23rd - September 22nd";
+      info.innerHTML = "You're a stromanthe triostar! A beautiful plant with pink and white varigated foliage. You're loyal and gentle, but also have high expectations as a perfectionist. Stromanthes tend to be a bit picky about moisture and sunlight, but are beautiful nonetheless.";
+      modal.hidden = !modal.hidden;
+      break;
+
+    case 'leo':
+      img.src = 'images/leo_large.jpg';
+      title.innerHTML = "MONSTERA DELICIOSA";
+      date.innerHTML = "July 23rd- August 22nd";
+      info.innerHTML = "You're a monstera deliciosa! A dramatic, proud and showy plant. They're adaptable, but require a bit more attention. With sunlight, the leaves' fenestration is more pronounced.";
+      modal.hidden = !modal.hidden;
+      break;
+
+    case 'can':
+      img.src = 'images/can_large.jpg';
+      title.innerHTML = "PRAYER PLANT";
+      date.innerHTML = "June 21st - July 22nd";
+      info.innerHTML = "You're a prayer plant! You're intuitive, compassionate, and protective. Prayer plants need extra care as they can be quite sensitive to changes. Throughout the day, their leaves move up and down. ";
+      modal.hidden = !modal.hidden;
+      break;
+
+    case 'gem':
+      img.src = 'images/gem_large.jpg';
+      title.innerHTML = "MARBLE QUEEN POTHOS";
+      date.innerHTML = "May 21st - June 20th";
+      info.innerHTML = "You're a marble queen pothos! You're versatile, expressive and kind. You're curious just like pothos which can climb in all directions. The marble queen has beautiful speckled white foliage and is very easy to care for.";
+      modal.hidden = !modal.hidden;
+      break;
+
+    case 'tau':
+      img.src = 'images/tau_large.jpg';
+      title.innerHTML = "JADE PLANT";
+      date.innerHTML = "April 20th - May 20th";
+      info.innerHTML = "You're a jade plant! You're self reliant and hard working. You love routine and hate big changes. Jade plants grow slowly and steadily. Plant care is easy and the small, circular leaves bring good luck.";
+      modal.hidden = !modal.hidden;
+      break;
+
+    case 'ari':
+      img.src = 'images/aqu_large.jpg';
+      title.innerHTML = "BARREL CACTUS";
+      date.innerHTML = "March 21st - April 19th";
+      info.innerHTML = "You're a barrel cactus! You're passionate, bold and ambitious. These prickly, sun-loving plants are perfect for your fiery nature. Despite the prickly exterior, they can flower with enough sunlight. They're easy to care for and need minimal watering.";
+      modal.hidden = !modal.hidden;
+      break;
+
     case 'pis':
-      zDisplayImgObj.src = 'images/pis_large.jpg';
-      zTitleObj.innerHTML = "ALOE VERA";
-      zDateRangeObj.innerHTML = "February 19th - March 21st";
-      zMoreInfoObj.innerHTML = "You're an aloe! You are an empathetic and nurturing person. A natural-born healer! This succulent is well known for its healing properties. You can use the gel inside on burns.  ";
+      img.src = 'images/pis_large.jpg';
+      title.innerHTML = "ALOE VERA";
+      date.innerHTML = "February 19th - March 21st";
+      info.innerHTML = "You're an aloe! You are an empathetic and nurturing person. A natural-born healer! This succulent is well known for its healing properties. You can use the gel inside on burns.  ";
       modal.hidden = !modal.hidden;
       break;
 
       case 'aqu':
-        zDisplayImgObj.src = 'images/aqu_large.jpg';
-        zTitleObj.innerHTML = "ZZ RAVEN";
-        zDateRangeObj.innerHTML = "January 20th - February 18th";
-        zMoreInfoObj.innerHTML = "blah";
+        img.src = 'images/aqu_large.jpg';
+        title.innerHTML = "RAVEN ZZ";
+        date.innerHTML = "January 20th - February 18th";
+        info.innerHTML = "You're a Raven ZZ! A rare variety of the ZZ plant. You're independent, progressive and a humanitarian. ZZs are associated with understanding and forgiveness. They also don't need much light or water, independent and strong just like you!";
         modal.hidden = !modal.hidden;
         break;
+        case 'help':
+          img.src = 'images/help.jpg';
+          title.innerHTML = "HELP";
+          date.innerHTML = "What Houseplant are You?";
+          info.innerHTML = "To find out what houseplant you are, click on any of the plant images. Or you can enter your birthday in the box on the front page and a plant for you will pop up. Feel free to see what other plants your family and friends are!";
+          modal.hidden = !modal.hidden;
+          break;
     }
 }
 
@@ -159,9 +249,10 @@ aquObj.addEventListener('click', function(evt) {
     }
 
     console.log('AstroSign is: ' + AstroSign);
+    userPicked(AstroSign);
 
 
- }, false);
+ });
 
 
  //Modal//
@@ -173,7 +264,7 @@ closeModalObj.addEventListener('click', function() {
   modal.hidden = !modal.hidden;
 });
 
-const zDisplayImgObj = document.getElementById('zDisplayImg');
-const zTitleObj = document.getElementById('zTitle');
-const zDateRangeObj = document.getElementById('zDateRange');
-const zMoreInfoObj = document.getElementById('zMoreInfo');
+const img = document.getElementById('img');
+const title = document.getElementById('title');
+const date = document.getElementById('date');
+const info = document.getElementById('info');

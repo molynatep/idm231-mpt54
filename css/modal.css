@@ -10,7 +10,7 @@
 	display: none !important;
 }
 
-.modal {
+#modal {
 	height: 100vh;
 	width: 100vw;
 
@@ -25,7 +25,7 @@
 	flex-direction: column;
 }
 
-.modal .blanket {
+#modal .blanket {
 	background-color: rgba(0, 0, 0, .8);
 
 	height: 100vh;
@@ -61,19 +61,19 @@
 	padding-left: 2.5rem;
 }
 
-#zDateRange {
+#date {
 	font-style: italic;
 	margin: 0;
 	padding-left: .5rem;
 	font-size: 1.1rem;
 }
 
-#zMoreInfo {
+#info {
 	color: #344452;
 	font-size: 1.4rem;
 	margin-top: 1.3rem;
 	max-width: 600px;
-	line-height: 1.6;
+	line-height: 1.8;
 	font-weight: normal;
 }
 .text {
@@ -83,7 +83,7 @@
 h1.text {
 	font-family: 'montserrat';
 	font-weight: bold;
-	font-size: 4rem;
+	font-size: 3.5rem;
 	margin-bottom: 0;
 }
 
