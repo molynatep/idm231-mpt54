@@ -14,23 +14,21 @@
 
 @font-face {
   font-family: 'montserrat';
-  src: url('/fonts/montserrat/Montserrat-Bold.woff2') format('woff2'),;
+  src: url('/fonts/montserrat/Montserrat-Bold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
 }
 
 @font-face {
   font-family: 'playfairdisplay';
-  src: url('/fonts/playfairdisplay/PlayfairDisplay-Bold.woff2') format('woff2'),;
+  src: url('/fonts/playfairdisplay/PlayfairDisplay-Bold.woff2') format('woff2');
   font-weight: bold;
   font-style: normal;
 }
 
-@font-face {
-  font-family: 'montserrat';
-  src: url('/fonts/montserrat/Montserrat-Black.woff2') format('woff2'),;
-  font-weight: bolder;
-  font-style: normal;
+html {
+	box-sizing: border-box;
+	font-size: 100%;
 }
 
 body {

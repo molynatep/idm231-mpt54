@@ -95,18 +95,21 @@ aquObj.addEventListener('click', function(evt) {
   console.log('userPicked called: ' + whichOne);
   switch (whichOne) {
     case 'pis':
-      // displayObj.src = 'img/ful_pisces.png';
-      zDisplayImgObj.src = 'images/';
-      // Title
-      zTitleObj.innerHTML = "PISCES";
-      // display date range
-      zDateRangeObj.innerHTML = "##-Month to ##-Month";
-      // display description
-      zMoreInfoObj.innerHTML = "<p>Pisces are cool, they swim in water.</p>";
-
+      zDisplayImgObj.src = 'images/pis_large.jpg';
+      zTitleObj.innerHTML = "ALOE VERA";
+      zDateRangeObj.innerHTML = "February 19th - March 21st";
+      zMoreInfoObj.innerHTML = "You're an aloe! You are an empathetic and nurturing person. A natural-born healer! This succulent is well known for its healing properties. You can use the gel inside on burns.  ";
       modal.hidden = !modal.hidden;
       break;
-  }
+
+      case 'aqu':
+        zDisplayImgObj.src = 'images/aqu_large.jpg';
+        zTitleObj.innerHTML = "ZZ RAVEN";
+        zDateRangeObj.innerHTML = "January 20th - February 18th";
+        zMoreInfoObj.innerHTML = "blah";
+        modal.hidden = !modal.hidden;
+        break;
+    }
 }
 
 

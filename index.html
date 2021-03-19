@@ -39,20 +39,24 @@
 
     <!-- popup div/modal -->
     <div id="modal" class="modal" hidden>
-      <div class="modal-body">
-        <div class="modal-content">
-          <div>
-            <img id="zDisplayImg" src="images/ari_large.jpg" alt="">
+      <div id="modal" class="modal">
+        <div class="modal-body">
+          <button id="btn-modal-close" class="toggle-modal btn">x</button>
+          <div class="modal-content">
+            <div class="pic">
+              <img id="zDisplayImg" src="images/ari_large.jpg" alt="">
+            </div>
+            <div class="description">
+            <h1 class="text" id="zTitle">CACTUS</h1>
+            <p class="text" id="zDateRange">January 01 - February 01</p>
+              <div>
+                <p class="text" id="zMoreInfo">description</p>
+              </div>
+            </div>
           </div>
-          <p><span id="zTitle">Title</span>, <span id="zDateRange">Date Range</span></p>
-          <div id="zMoreInfo">
-            <p>Object description goes here</p>
-          </div>
-          <button id="btn-modal-close" class="toggle-modal">Close</button>
         </div>
+        <div class="blanket"></div>
       </div>
-      <div class="blanket"></div>
-    </div>
   </main>
   <script src="js/main.js"></script>
 </body>
