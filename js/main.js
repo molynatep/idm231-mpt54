@@ -102,6 +102,8 @@ helpObj.addEventListener('click', function(evt) {
       title.innerHTML = "BONSAI";
       date.innerHTML = "December 22nd - January 19th";
       info.innerHTML = "You're a bonsai! You're the epitome of discipline and responsibility. You thrive in rules and tradition. Growing Bonsai requires a lot of discipline and control just like you.";
+      stopAllAudio();
+      bonsaiObj.play();
       modal.hidden = !modal.hidden;
       break;
 
@@ -110,6 +112,8 @@ helpObj.addEventListener('click', function(evt) {
       title.innerHTML = "AIR PLANT";
       date.innerHTML = "November 22nd - December 21st";
       info.innerHTML = "You're an air plant! You tend to be adventurous, always ready to explore. You're also independent and go after you want. As an adaptable traveler, you're just like an air plant, free to grow anywhere.";
+      stopAllAudio();
+      airObj.play();
       modal.hidden = !modal.hidden;
       break;
 
@@ -118,6 +122,8 @@ helpObj.addEventListener('click', function(evt) {
       title.innerHTML = "SNAKE PLANT";
       date.innerHTML = "October 23rd - November 21st";
       info.innerHTML = "You're a snake plant! Also known as mother-in-law's tongue. They're independent and prefer to be left on their own. As low-light plants needing minimal watering, they don't need much attention.";
+      stopAllAudio();
+      snakeObj.play();
       modal.hidden = !modal.hidden;
       break;
 
@@ -126,6 +132,8 @@ helpObj.addEventListener('click', function(evt) {
       title.innerHTML = "PEACE LILY";
       date.innerHTML = "September 23rd - October 22nd";
       info.innerHTML = "You're a peace lily! You're rational and balanced and understand the complex nature of human relationships. You put others before yourself and you're great at compromising. Peace lilies are well known for their air purifying qualities and bloom beautiful flowers.";
+      stopAllAudio();
+      lilyObj.play();
       modal.hidden = !modal.hidden;
       break;
 
@@ -134,6 +142,8 @@ helpObj.addEventListener('click', function(evt) {
       title.innerHTML = "STROMANTHE TRIOSTAR";
       date.innerHTML = "August 23rd - September 22nd";
       info.innerHTML = "You're a stromanthe triostar! A beautiful plant with pink and white varigated foliage. You're loyal and gentle, but also have high expectations as a perfectionist. Stromanthes tend to be a bit picky about moisture and sunlight, but are beautiful nonetheless.";
+      stopAllAudio();
+      triostarObj.play();
       modal.hidden = !modal.hidden;
       break;
 
@@ -142,6 +152,8 @@ helpObj.addEventListener('click', function(evt) {
       title.innerHTML = "MONSTERA DELICIOSA";
       date.innerHTML = "July 23rd- August 22nd";
       info.innerHTML = "You're a monstera deliciosa! A dramatic, proud and showy plant. They're adaptable, but require a bit more attention. With sunlight, the leaves' fenestration is more pronounced.";
+      stopAllAudio();
+      monsteraObj.play();
       modal.hidden = !modal.hidden;
       break;
 
@@ -150,6 +162,8 @@ helpObj.addEventListener('click', function(evt) {
       title.innerHTML = "PRAYER PLANT";
       date.innerHTML = "June 21st - July 22nd";
       info.innerHTML = "You're a prayer plant! You're intuitive, compassionate, and protective. Prayer plants need extra care as they can be quite sensitive to changes. Throughout the day, their leaves move up and down. ";
+      stopAllAudio();
+      prayerObj.play();
       modal.hidden = !modal.hidden;
       break;
 
@@ -158,6 +172,8 @@ helpObj.addEventListener('click', function(evt) {
       title.innerHTML = "MARBLE QUEEN POTHOS";
       date.innerHTML = "May 21st - June 20th";
       info.innerHTML = "You're a marble queen pothos! You're versatile, expressive and kind. You're curious just like pothos which can climb in all directions. The marble queen has beautiful speckled white foliage and is very easy to care for.";
+      stopAllAudio();
+      pothosObj.play();
       modal.hidden = !modal.hidden;
       break;
 
@@ -166,6 +182,8 @@ helpObj.addEventListener('click', function(evt) {
       title.innerHTML = "JADE PLANT";
       date.innerHTML = "April 20th - May 20th";
       info.innerHTML = "You're a jade plant! You're self reliant and hard working. You love routine and hate big changes. Jade plants grow slowly and steadily. Plant care is easy and the small, circular leaves bring good luck.";
+      stopAllAudio();
+      jadeObj.play();
       modal.hidden = !modal.hidden;
       break;
 
@@ -174,6 +192,8 @@ helpObj.addEventListener('click', function(evt) {
       title.innerHTML = "BARREL CACTUS";
       date.innerHTML = "March 21st - April 19th";
       info.innerHTML = "You're a barrel cactus! You're passionate, bold and ambitious. These prickly, sun-loving plants are perfect for your fiery nature. Despite the prickly exterior, they can flower with enough sunlight. They're easy to care for and need minimal watering.";
+      stopAllAudio();
+      cactusObj.play();
       modal.hidden = !modal.hidden;
       break;
 
@@ -182,6 +202,8 @@ helpObj.addEventListener('click', function(evt) {
       title.innerHTML = "ALOE VERA";
       date.innerHTML = "February 19th - March 21st";
       info.innerHTML = "You're an aloe! You are an empathetic and nurturing person. A natural-born healer! This succulent is well known for its healing properties. You can use the gel inside on burns.  ";
+      stopAllAudio();
+      aloeObj.play();
       modal.hidden = !modal.hidden;
       break;
 
@@ -190,8 +212,11 @@ helpObj.addEventListener('click', function(evt) {
         title.innerHTML = "RAVEN ZZ";
         date.innerHTML = "January 20th - February 18th";
         info.innerHTML = "You're a Raven ZZ! A rare variety of the ZZ plant. You're independent, progressive and a humanitarian. ZZs are associated with understanding and forgiveness. They also don't need much light or water, independent and strong just like you!";
+        stopAllAudio();
+        zzObj.play();
         modal.hidden = !modal.hidden;
         break;
+
         case 'help':
           img.src = 'images/help.jpg';
           title.innerHTML = "HELP";
@@ -255,7 +280,7 @@ helpObj.addEventListener('click', function(evt) {
  });
 
 
- //Modal//
+ //MODAL!//
 
 const modal = document.getElementById('modal');
 const closeModalObj = document.getElementById('btn-modal-close');
@@ -268,3 +293,56 @@ const img = document.getElementById('img');
 const title = document.getElementById('title');
 const date = document.getElementById('date');
 const info = document.getElementById('info');
+
+// SOUNDS!
+const bonsaiObj = document.getElementById('soundBonsai');
+const airObj = document.getElementById('soundAir');
+const snakeObj = document.getElementById('soundSnake');
+const lilyObj = document.getElementById('soundLily');
+const triostarObj = document.getElementById('soundTriostar');
+const monsteraObj = document.getElementById('soundMonstera');
+const prayerObj = document.getElementById('soundPrayer');
+const pothosObj = document.getElementById('soundPothos');
+const jadeObj = document.getElementById('soundJade');
+const cactusObj = document.getElementById('soundCactus');
+const aloeObj = document.getElementById('soundAloe');
+const zzObj = document.getElementById('soundZz');
+
+function stopAllAudio() {
+  bonsaiObj.pause();
+  bonsaiObj.currentTime = 0;
+  //
+  airObj.pause();
+  airObj.currentTime = 0;
+  //
+  snakeObj.pause();
+  snakeObj.currentTime = 0;
+ //
+  lilyObj.pause();
+  lilyObj.currentTime = 0;
+ //
+  triostarObj.pause();
+  triostarObj.currentTime = 0;
+ //
+  monsteraObj.pause();
+  monsteraObj.currentTime = 0;
+ //
+  prayerObj.pause();
+  prayerObj.currentTime = 0;
+ //
+  pothosObj.pause();
+  pothosObj.currentTime = 0;
+ //
+  jadeObj.pause();
+  jadeObj.currentTime = 0;
+ //
+  cactusObj.pause();
+  cactusObj.currentTime = 0;
+ //
+  aloeObj.pause();
+  aloeObj.currentTime = 0;
+ //
+  zzObj.pause();
+  zzObj.currentTime = 0;
+
+}

@@ -18,19 +18,6 @@
   font-weight: bold;
   font-style: normal;
 }
-@font-face {
-  font-family: 'playfairdisplay';
-  src: url('/fonts/playfairdisplay/PlayfairDisplay-Regular.woff2') format('woff2');
-  font-weight: normal;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'playfairdisplay';
-  src: url('/fonts/playfairdisplay/PlayfairDisplay-Bold.woff2') format('woff2');
-  font-weight: bold;
-  font-style: normal;
-}
 
 html {
 	box-sizing: border-box;
@@ -56,15 +43,13 @@ body {
 input[type="date"] {
   background: transparent;
   color: #646F79;
-  font-family: 'montserrat', sans-serif;
   font-size: 1.1rem;
   cursor: text;
-  border-radius: 3px;
-  padding: 3px 5px;
+  border-radius: px;
+  padding: 3px 3px;
 }
 
 .btn{
-  font-family: 'montserrat', sans-serif;
   border-radius: 5px;
   background: transparent;
   cursor: pointer;
@@ -82,18 +67,18 @@ input[type="date"] {
   align-items: center;
   justify-content: center;
 }
+h1, p, button, input {
+  font-family: 'montserrat', sans-serif;
+  text-align: center;
+}
 
 h1 {
-  font-family: 'playfairdisplay';
-  text-align: center;
   color: #646F79;
   font-size: 3.3rem;
   margin-bottom: 0rem;
 }
 
 p {
-  font-family: 'montserrat';
-  text-align: center;
   color: #917e7a;
   font-weight: bold;
   font-size: 1.4rem;
